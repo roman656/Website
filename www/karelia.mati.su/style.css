@@ -9,22 +9,32 @@ body {
 p {
     text-align: justify; /* Выравнивание по ширине */
     margin-left: 60px; /* Отступ слева в пикселах */
-    margin-right: 10px; /* Отступ справа в пикселах */
+    margin-right: 15px; /* Отступ справа в пикселах */
+    padding: 2px;
 }
 
 h1 {
+    padding: 5px;
+    font-size: 25pt; 
+    text-align: center;
     color: #FF1300
 }
 
 h2 {
+    padding: 3px;
+    text-align: center;
     color: #00C322
 }
 
 h3 {
+    padding: 3px;
+    text-align: center;
     color: #38E156
 }
 
 h4 {
+    padding: 3px;
+    text-align: center;
     color: #65E17B
 }
 
@@ -76,10 +86,10 @@ nav ul li a:hover {
 
 /*---Подвал-начало---*/
 footer {
-    height: 180px;
+    height: 90px;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt; 
+    font-size: 15pt; 
     background-color: rgb(9, 167, 93); 
     color: rgb(66, 54, 17); 
     border-top: 3px solid rgb(29, 95, 59); 
@@ -97,4 +107,20 @@ footer a {
 footer a:hover {
     background: rgba(29, 223, 132, 0.8); 
 }
+
+.copyright {
+    padding: 3px;
+}
 /*---Подвал-конец---*/
+
+.contacts {
+    width: 100%;
+}
+
+.contacts td {
+    width: 20%;
+}
+
+.logoimg {
+    width: 100%;
+}
