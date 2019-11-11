@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Семейство шрифтов */
+    font-size: 20pt; /* Размер основного шрифта в пунктах */
+    background-color: rgb(100, 131, 119); /* Цвет фона веб-страницы */
+    color: #333; /* Цвет основного текста */
+    height: 100%;
+}
+
+p {
+    text-align: justify; /* Выравнивание по ширине */
+    margin-left: 60px; /* Отступ слева в пикселах */
+    margin-right: 10px; /* Отступ справа в пикселах */
+}
+
+h1 {
+    color: #FF1300
+}
+
+h2 {
+    color: #00C322
+}
+
+h3 {
+    color: #38E156
+}
+
+h4 {
+    color: #65E17B
+}
+
+/*---Навигация-начало---*/
+nav {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+nav:before {
+    content: '';
+    display: block;
+    height: 50px;
+    width: 100%;
+    background: rgb(9, 167, 93);
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+nav ul {
+    height: 50px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    height: 50px;
+    padding: 0 10px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: sans-serif; 
+    color: rgb(255, 140, 46);
+    font: 12;
+    transition: 0.5s all;
+}
+
+nav ul li a:hover {
+    background: rgba(29, 223, 132, 0.8); 
+}
+
+.active {
+    background: rgb(5, 117, 83); 
+}
+/*---Навигация-конец---*/
+
+/*---Подвал-начало---*/
+footer {
+    height: 180px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt; 
+    background-color: rgb(9, 167, 93); 
+    color: rgb(66, 54, 17); 
+    border-top: 3px solid rgb(29, 95, 59); 
+}
+
+footer a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: rgb(66, 54, 17);
+    text-align: center;
+    transition: 0.5s all;
+}
+
+footer a:hover {
+    background: rgba(29, 223, 132, 0.8); 
+}
+/*---Подвал-конец---*/
