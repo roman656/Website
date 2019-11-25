@@ -6,7 +6,7 @@
         <!--#include file="header.shtml"-->
         <!--Содержимое-->
         <div class="valaam_content">
-            
+            <h2>Валаам</h2>
         </div>
         <!--Подвал-->
         <!--#include file="footer.shtml"-->
