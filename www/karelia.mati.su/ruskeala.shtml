@@ -1,26 +1,12 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "utf-8">
-        <title>Карелия</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang = "ru">
+    <!--#include file="head.html"-->
     <body>
-        <!--Лого-->
-        <img class="logoimg" src="logo.png" alt="Лого">
-        <!--Навигация-->
-        <nav>
-            <ul>
-                <li><a href="http://karelia.mati.su/" title="Перейти на главную">Главная</a></li>
-                <li class="active"><a title="Бывший мраморный карьер">Горный парк «Рускеала»</a></li>
-                <li><a href="valaam.html" title="Остров">Валаам</a></li>
-                <li><a href="#" title="Восточная область">Восточная область</a></li>
-            </ul>
-        </nav>
+        <!--Заголовок-->
+        <!--#include file="header.shtml"-->
         <!--Содержимое-->
-        <div>
-            <h1>Рускеала (горный парк)</h1>
+        <div class="ruskeala_content">
+            <h2>Рускеала (горный парк)</h2>
             <p>Го́рный парк «Рускеа́ла» (фин. Ruskeala — «Коричневая, Бурая») — туристический комплекс, расположенный в Сортавальском районе Республики Карелия. Основой комплекса является объект культурного наследия, памятник истории — заполненный грунтовыми водами бывший мраморный карьер.</p>
             <h2>География</h2>
             <p>Расположен вблизи посёлка Рускеала в 30 километрах к северу от города Сортавала, на берегу реки Тохмайоки.</p>
@@ -42,36 +28,6 @@
             <p>1 июня 2019 года со станции Сортавала до горного парка «Рускеала» запущен туристический ретропоезд на паровозной тяге, интерьер которого выполнен в стиле «Николаевского экспресса».</p>
         </div>
         <!--Подвал-->
-        <footer>
-            <p class="copyright">&copy; Р. Д. Страхов, 2019</p>
-            <table class="contacts"> 
-                <caption>Друзья сайта</caption>
-                <td>
-                    <ul>
-                        <li><a href="http://momimu.mati.su/" title="НЕНАДА">Сайт Степана</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a href="http://faizovr.mati.su/" title="Слишком навороченно">Сайт Рустама</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a href="http://madeira.mati.su/" title="Безопасно">Сайт Димы</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a href="http://brainout.mati.su/" title="Подумай прежде чем нажать... Я предупредил тебя">Сайт Александра</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a href="http://urban-kharty.mati.su/" title="SCP-3008">Сайт Артема</a></li>
-                    </ul>
-                </td>
-            </table>
-        </footer>
+        <!--#include file="footer.shtml"-->
     </body> 
 </html>

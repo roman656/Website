@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <!--#include file="head.html"-->
+    <body>
+        <!--Заголовок-->
+        <!--#include file="header.shtml"-->
+        <!--Содержимое-->
+        <div class="valaam_content">
+            
+        </div>
+        <!--Подвал-->
+        <!--#include file="footer.shtml"-->
+    </body> 
+</html> 
