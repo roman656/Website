@@ -8,30 +8,32 @@
         <!--#endif --></p>
     <table class="contacts"> 
         <caption>Друзья сайта</caption>
-        <td>
-            <ul>
-                <li><a href="http://momimu.mati.su/">Сайт Степана</a></li>
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li><a href="http://faizovr.mati.su/">Сайт Рустама</a></li>
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li><a href="http://madeira.mati.su/">Сайт Димы</a></li>
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li><a href="http://brainout.mati.su/">Сайт Александра</a></li>
-            </ul>
-        </td>
-        <td>
-            <ul>
-                <li><a href="http://urban-kharty.mati.su/">Сайт Артема</a></li>
-            </ul>
-        </td>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="http://momimu.mati.su/">Сайт Степана</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://faizovr.mati.su/">Сайт Рустама</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://madeira.mati.su/">Сайт Димы</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://brainout.mati.su/">Сайт Александра</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="http://urban-kharty.mati.su/">Сайт Артема</a></li>
+                </ul>
+            </td>
+        </tr>
     </table>
 </footer> 

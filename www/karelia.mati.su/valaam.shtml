@@ -5,7 +5,7 @@
         <!--Заголовок-->
         <!--#include file="header.shtml"-->
         <!--Содержимое-->
-        <div class="valaam_content">
+        <div class="content">
             <h2>Валаам</h2>
         </div>
         <!--Подвал-->

@@ -1,59 +1,38 @@
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Семейство шрифтов */
-    font-size: 20pt; /* Размер основного шрифта в пунктах */
-    background-color: rgb(122, 122, 122); /* Цвет фона веб-страницы */
-    color: #333; /* Цвет основного текста */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    background-color: rgb(255, 255, 255);
+    color: #333;
     height: 100%;
 }
 
-p {
-    text-align: justify; /* Выравнивание по ширине */
-    margin-left: 60px; /* Отступ слева в пикселах */
-    margin-right: 15px; /* Отступ справа в пикселах */
-    padding: 2px;
+
+
+/*---Лого-начало---*/
+.logo {
+    background: url("logo.png");
+    background-size: 100%;
+    background-position: center;
+    height: 200px;
 }
 
-h1 {
+.logo h1 {
     display: none;
 }
+/*---Лого-конец---*/
 
-h2 {
-    padding: 3px;
-    text-align: center;
-    color: #00C322
-}
 
-h3 {
-    padding: 3px;
-    text-align: center;
-    color: #38E156
-}
-
-h4 {
-    padding: 3px;
-    text-align: center;
-    color: #65E17B
-}
 
 /*---Навигация-начало---*/
 nav {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-nav:before {
-    content: '';
-    display: block;
     height: 50px;
     width: 100%;
-    background: rgb(91, 172, 134);
-    position: absolute;
-    left: 0;
-    z-index: -1;
+    background: #A3F06C;
 }
 
 nav ul {
-    height: 50px;
+    display: table;
+    margin: 0 auto;
 }
 
 nav ul li {
@@ -62,7 +41,6 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    height: 50px;
     padding: 0 10px;
     line-height: 50px;
     text-decoration: none;
@@ -73,29 +51,50 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: rgba(100, 197, 152, 0.8); 
+    background: rgba(95, 169, 42, 0.6); 
 }
 
 .active {
-    background: rgb(15, 156, 114); 
+    background: #5DE100; 
     transition: none;
 }
 
 .active a:hover {
-    background: rgb(15, 156, 114); 
+    background: #5DE100; 
     transition: none;
 }
 /*---Навигация-конец---*/
+
+
+
+/*---Контент-страницы-начало---*/
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content p{
+    text-align: left;
+    margin: 20px 15px 20px 60px;
+}
+
+.content h2 {
+     text-align: center;
+     color: #3D9200;
+}
+/*---Контент-страницы-конец---*/
+
+
 
 /*---Подвал-начало---*/
 footer {
     height: 90px;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt; 
-    background-color: rgb(91, 172, 134); 
+    font-size: 15pt;
+    background-color: #A3F06C; 
     color: rgb(66, 54, 17); 
-    border-top: 3px solid rgb(46, 145, 91); 
+    border-top: 3px solid #3D9200; 
 }
 
 footer a {
@@ -108,13 +107,12 @@ footer a {
 }
 
 footer a:hover {
-    background: rgba(100, 197, 152, 0.8); 
+    background: rgba(95, 169, 42, 0.6); 
 }
 
 .copyright {
-    padding: 3px;
+    margin: 5px 15px 5px 60px;
 }
-/*---Подвал-конец---*/
 
 .contacts {
     width: 100%;
@@ -124,7 +122,4 @@ footer a:hover {
    padding: 2px;
     width: 20%;
 }
-
-.logoimg {
-    overflow: hidden;
-}
+/*---Подвал-конец---*/

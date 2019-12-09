@@ -1,6 +1,5 @@
 <header>
     <div class="logo">
-        <img class="logoimg" src="logo.png" alt="Республика Карелия">
         <h1>Карелия</h1>
     </div>
     <!--Навигация-->
