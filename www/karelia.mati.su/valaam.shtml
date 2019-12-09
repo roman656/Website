@@ -7,6 +7,7 @@
         <!--Содержимое-->
         <div class="content">
             <h2>Валаам</h2>
+            <p></p>
         </div>
         <!--Подвал-->
         <!--#include file="footer.shtml"-->
