@@ -11,9 +11,9 @@
             <li><a href="index.shtml" title="Главная">Главная</a></li>
             <!--#endif-->
             <!--#if expr="$DOCUMENT_URI = '/ruskeala.shtml'"-->
-            <li class="active"><a title="Бывший мраморный карьер">Горный парк «Рускеала»</a></li>
+            <li class="active"><a title="Бывший мраморный каньон">Горный парк «Рускеала»</a></li>
             <!--#else-->
-            <li><a href="ruskeala.shtml" title="Бывший мраморный карьер">Горный парк «Рускеала»</a></li>
+            <li><a href="ruskeala.shtml" title="Бывший мраморный каньон">Горный парк «Рускеала»</a></li>
             <!--#endif-->
             <!--#if expr="$DOCUMENT_URI = '/valaam.shtml'"-->
             <li class="active"><a title="Остров в северной части Ладожского озера">Остров Валаам</a></li>
