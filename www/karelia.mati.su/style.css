@@ -101,6 +101,8 @@ nav ul li a:hover {
 .con_img {
     display: block;
     margin: auto;
+    text-align: center;
+    font-size: 23pt;
 }
 
 .p_img {
